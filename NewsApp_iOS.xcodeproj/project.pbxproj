@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		607FC7502D6AACF60009C0E0 /* NewsApp_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FC74F2D6AACF60009C0E0 /* NewsApp_iOSApp.swift */; };
-		607FC7522D6AACF60009C0E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FC7512D6AACF60009C0E0 /* ContentView.swift */; };
+		607FC7522D6AACF60009C0E0 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FC7512D6AACF60009C0E0 /* NewsListView.swift */; };
 		607FC7542D6AACF70009C0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FC7532D6AACF70009C0E0 /* Assets.xcassets */; };
 		607FC7572D6AACF70009C0E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FC7562D6AACF70009C0E0 /* Preview Assets.xcassets */; };
 		607FC7612D6AACF70009C0E0 /* NewsApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FC7602D6AACF70009C0E0 /* NewsApp_iOSTests.swift */; };
@@ -46,7 +46,7 @@
 /* Begin PBXFileReference section */
 		607FC74C2D6AACF60009C0E0 /* NewsApp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FC74F2D6AACF60009C0E0 /* NewsApp_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp_iOSApp.swift; sourceTree = "<group>"; };
-		607FC7512D6AACF60009C0E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		607FC7512D6AACF60009C0E0 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		607FC7532D6AACF70009C0E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607FC7562D6AACF70009C0E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		607FC75C2D6AACF70009C0E0 /* NewsApp_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsApp_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +165,7 @@
 		607FC77B2D6AADAC0009C0E0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				607FC7512D6AACF60009C0E0 /* ContentView.swift */,
+				607FC7512D6AACF60009C0E0 /* NewsListView.swift */,
 				607FC7842D6AAF320009C0E0 /* NewsCell.swift */,
 				607FC7872D6AAF3D0009C0E0 /* ArticleDetailView.swift */,
 			);
@@ -319,7 +319,7 @@
 			files = (
 				607FC7882D6AAF3D0009C0E0 /* ArticleDetailView.swift in Sources */,
 				607FC77F2D6AAF190009C0E0 /* NewsModel.swift in Sources */,
-				607FC7522D6AACF60009C0E0 /* ContentView.swift in Sources */,
+				607FC7522D6AACF60009C0E0 /* NewsListView.swift in Sources */,
 				607FC78B2D6AAF4A0009C0E0 /* NewsService.swift in Sources */,
 				607FC7502D6AACF60009C0E0 /* NewsApp_iOSApp.swift in Sources */,
 				607FC7822D6AAF250009C0E0 /* NewsViewModel.swift in Sources */,

@@ -24,7 +24,21 @@ enum NewsError: Error, LocalizedError {
 }
 
 class NewsService {
-    func fetchNews() {
+    func fetchNews() -> AnyPublisher<[NewsArticle], NewsError> {
+        let apiKey = "b03faa0715d54409af5127163cbd0609"
+        let urlString = "https://newsapi.org/v2/top-headlines?country=us&apiKey=\(apiKey)"
         
+        guard let url = URL(string: urlString) else {
+            return Fail(error: NewsError.invalidURL).eraseToAnyPublisher()
+        }
+        
+        return URLSession.shared.dataTaskPublisher(for: url)
+            .mapError { _ in NewsError.requestFailed }
+            .map { $0.data }
+            .decode(type: NewsResponse.self, decoder: JSONDecoder())
+            .map { $0.articles }
+            .mapError { _ in NewsError.decodingFailed }
+            .receive(on: DispatchQueue.main)
+            .eraseToAnyPublisher()
     }
 }
