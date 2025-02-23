@@ -59,6 +59,7 @@
 		607FC7842D6AAF320009C0E0 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		607FC7872D6AAF3D0009C0E0 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
 		607FC78A2D6AAF4A0009C0E0 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		607FC78D2D6ACF350009C0E0 /* NewsApp-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NewsApp-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 		607FC74E2D6AACF60009C0E0 /* NewsApp_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				607FC78D2D6ACF350009C0E0 /* NewsApp-iOS-Info.plist */,
 				607FC7792D6AAD8C0009C0E0 /* Models */,
 				607FC77A2D6AAD960009C0E0 /* ViewModels */,
 				607FC77B2D6AADAC0009C0E0 /* Views */,
@@ -494,6 +496,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp_iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NewsApp-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -522,6 +525,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp_iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NewsApp-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
