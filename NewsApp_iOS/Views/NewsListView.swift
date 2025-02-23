@@ -20,7 +20,7 @@ struct NewsListView: View {
                 }
                 
                 List(viewModel.articles) { article in
-                    Text(article.title)
+                    NewsCell(article: article)
                 }
                 
                 .navigationTitle("Latest News")

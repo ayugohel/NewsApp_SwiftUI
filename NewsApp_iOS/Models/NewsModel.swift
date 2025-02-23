@@ -27,4 +27,15 @@ struct NewsArticle: Identifiable, Decodable {
     enum CodingKeys: String, CodingKey {
         case title, description, source, publishedAt, url, urlToImage
     }
+    
+    var formattedDate: String {
+        let formatter = ISO8601DateFormatter()
+        if let date = formatter.date(from: publishedAt) {
+            let displayFormatter = DateFormatter()
+            displayFormatter.dateStyle = .medium
+            displayFormatter.timeStyle = .short
+            return displayFormatter.string(from: date)
+        }
+        return publishedAt
+    }
 }
