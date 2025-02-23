@@ -20,7 +20,9 @@ struct NewsListView: View {
                 }
                 
                 List(viewModel.articles) { article in
-                    NewsCell(article: article)
+                    NavigationLink(destination: ArticleDetailView(article: article)) {
+                        NewsCell(article: article)
+                    }
                 }
                 
                 .navigationTitle("Latest News")
