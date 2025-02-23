@@ -5,6 +5,8 @@
 //  Created by Ayushi Gohel on 2025-02-22.
 //
 
+// MARK: UI component for displaying article preview.
+
 import SwiftUI
 
 struct NewsCell: View {

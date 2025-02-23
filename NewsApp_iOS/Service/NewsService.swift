@@ -5,6 +5,8 @@
 //  Created by Ayushi Gohel on 2025-02-22.
 //
 
+// MARK: Handles fetching data from NewsAPI.
+
 import Foundation
 import Combine
 import SwiftUI

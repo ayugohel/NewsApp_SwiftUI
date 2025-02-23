@@ -5,6 +5,8 @@
 //  Created by Ayushi Gohel on 2025-02-22.
 //
 
+// MARK: Model representing a news article.
+
 import Foundation
 
 struct NewsResponse: Decodable {

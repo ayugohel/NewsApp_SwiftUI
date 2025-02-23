@@ -5,6 +5,8 @@
 //  Created by Ayushi Gohel on 2025-02-22.
 //
 
+// MARK: Main view displaying news articles.
+
 import SwiftUI
 
 struct NewsListView: View {

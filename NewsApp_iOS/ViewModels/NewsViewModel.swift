@@ -5,6 +5,7 @@
 //  Created by Ayushi Gohel on 2025-02-22.
 //
 
+// MARK: Manages state and business logic.
 
 import SwiftUI
 import Combine
