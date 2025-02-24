@@ -6,7 +6,7 @@ A SwiftUI-based iOS news application that fetches and displays the latest news a
 - For networking, I used URLSession with Combine to ensure efficient asynchronous data fetching and error handling. AsyncImage was implemented for image loading, providing a seamless user experience.
 
 ## Features
-- Fetch and display top news headlines.
+- Fetch and display top news headline from [NewsAPI](https://newsapi.org/)
 - View article details including title, description, and source.
 - Open full articles in a browser.
 - Error handling for network failures.
