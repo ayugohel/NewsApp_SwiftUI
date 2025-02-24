@@ -2,6 +2,9 @@
 
 A SwiftUI-based iOS news application that fetches and displays the latest news articles from the NewsAPI.
 
+- The project follows the MVVM (Model-View-ViewModel) architecture to maintain a clean separation of concerns and enhance scalability.
+- For networking, I used URLSession with Combine to ensure efficient asynchronous data fetching and error handling. AsyncImage was implemented for image loading, providing a seamless user experience.
+
 ## Features
 - Fetch and display top news headlines.
 - View article details including title, description, and source.
@@ -13,7 +16,7 @@ A SwiftUI-based iOS news application that fetches and displays the latest news a
 - Xcode 13+
 - iOS 15+
 - Swift 5+
-- An API key from [NewsAPI](https://newsapi.org/)
+- Network
 
 ## Installation & Setup
 1. Clone the repository:
