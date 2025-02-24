@@ -1,6 +1,6 @@
 # NewsApp_SwiftUI
 
-A SwiftUI-based iOS news application that fetches and displays the latest news articles from the NewsAPI.
+A SwiftUI-based iOS news application that displays the latest news articles. Users can view a list of news articles and click on each article to see the details. The app also provides a "Read More" button to open the full article in a browser.
 
 - The project follows the MVVM (Model-View-ViewModel) architecture to maintain a clean separation of concerns and enhance scalability.
 - For networking, I used URLSession with Combine to ensure efficient asynchronous data fetching and error handling. AsyncImage was implemented for image loading, providing a seamless user experience.
@@ -31,3 +31,6 @@ A SwiftUI-based iOS news application that fetches and displays the latest news a
 - News articles are fetched automatically.
 - Tap an article to view details.
 - Click the "Read Full Article" link to open it in the browser.
+
+### Screenshots
+<img width="30%" height="60%" src="1.png" alt="ScreenShot"/> <img width="30%" height="60%" src="2.png" alt="ScreenShot"/>
